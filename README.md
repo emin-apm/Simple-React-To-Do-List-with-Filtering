@@ -8,9 +8,9 @@ This is a React TypeScript project that allows users to manage a to-do list. You
 -  Mark tasks as completed
 -  Toggle tasks between done and pending
 -  Filter tasks by:
-  - All
-  - Active
-  - Completed
+  -- All
+  -- Active
+  -- Completed
 -  Displays error or success messages when adding tasks
 -  Styled with CSS Modules
 
