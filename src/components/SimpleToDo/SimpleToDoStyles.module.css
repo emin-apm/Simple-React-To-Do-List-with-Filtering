@@ -1,0 +1,121 @@
+.container {
+  align-items: center;
+  padding: 30px 50px;
+  background-color: white;
+  width: 700px;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+.todoHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7em;
+  margin-bottom: 2em;
+}
+
+.todoHeader span {
+  font-size: 23px;
+}
+
+.todoBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef8;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.todoBody span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  background: green;
+  color: black;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.todoBody input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 20px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1em;
+  background-color: #edeef8;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+.done {
+  color: green;
+  text-decoration: line-through;
+}
+
+.notifications {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.notifications span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.filters {
+  display: flex;
+  margin-bottom: 0.3em;
+  margin-top: 1em;
+  gap: 0.3em;
+}
+.filters button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filters button:hover {
+  background-color: #d6d6ff;
+}
+
+.activeFilter {
+  background-color: #b0e0e6;
+  color: #003366;
+  font-weight: 600;
+}
+
+.icon {
+  font-size: 18px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
