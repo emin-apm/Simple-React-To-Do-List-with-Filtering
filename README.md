@@ -40,12 +40,12 @@ This is a React TypeScript project that allows users to manage a to-do list. You
 
 ## File Structure
 
-─ Notification.tsx        # Inline feedback for success/error
-─ SimpleToDo.tsx          # Main To-Do logic and state
-─ SimpleToDoStyles.module.css
-─ TodoInput.tsx           # Input field for adding new tasks
-─ TodoItem.tsx            # Individual task item with status
-─ TodoList.tsx            # Lists all filtered To-Do items
+- `Notification.tsx ` - Inline feedback for success/error
+- `SimpleToDo.tsx ` - Main To-Do logic and state
+- `SimpleToDoStyles.module.css ` - CSS styles for the components
+- `TodoInput.tsx` - Input field for adding new tasks
+- `TodoItem.tsx ` - Individual task item with status
+- `TodoList.tsx ` -  Lists all filtered To-Do items
 
 
 ## License
